@@ -10,7 +10,7 @@ var proxy = require('http-proxy-middleware');
 var app = express();
 
 
-MIDDLEWARE_URL = "http://localhost:56572"
+MIDDLEWARE_URL = "http://middleware:56572"
 var options = {
   target: MIDDLEWARE_URL,
   changeOrigin: true,
